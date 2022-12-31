@@ -1,0 +1,33 @@
+{
+  "name": "portfoliosite",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanveersingh10/website.git"
+  },
+  "author": "Tanveer Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanveersingh10/website/issues"
+  },
+  "homepage": "https://github.com/tanveersingh10/website#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-popper": "^2.3.0",
+    "react-router-dom": "^6.6.1",
+    "reactstrap": "^9.1.5"
+  }
+}
