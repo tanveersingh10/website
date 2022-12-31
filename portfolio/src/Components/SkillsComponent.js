@@ -9,10 +9,10 @@ function Skills(props) {
             <h2 className="text-center mb-4"> <u>Radioactive Powers</u></h2>
             <div className="row justify-content-center">   
                 <div className="col-12 col-sm-3 m-1 d-flex align-items-stretch ">
-                    <Card>
+                    <Card className="m-2">
                         <CardImg width="100%" src="assets/coding.jpeg" />
                         <CardBody>
-                            <CardTitle>Programming Languages</CardTitle>
+                        <CardTitle className="card-title d-flex justify-content-center"><h5>Programming Languages</h5></CardTitle>
                             <CardText>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item">JavaScript</li>
@@ -28,10 +28,10 @@ function Skills(props) {
                 </div>
 
                 <div className="col-12 col-sm-3 m-1 d-flex align-items-stretch">
-                    <Card>
+                    <Card className="m-2">
                         <CardImg className="object-fit-fill" width="100%" src="assets/technologies.jpeg" />
                         <CardBody>
-                            <CardTitle>Technologies </CardTitle>
+                            <CardTitle className="card-title d-flex justify-content-center"><h5>Technologies</h5> </CardTitle>
                             <CardText>
                             <ul className="list-group list-group-flush">
                                 <li className="list-group-item">React.js</li>
@@ -47,10 +47,10 @@ function Skills(props) {
                 </div>
 
                 <div className="col-12 col-sm-3 m-1 d-flex align-items-stretch">
-                        <Card>
+                        <Card className="m-2">
                         <CardImg width="100%" src="assets/social.jpeg" />
                         <CardBody>
-                            <CardTitle><h4>Soft Skills</h4></CardTitle>
+                            <CardTitle className="card-title d-flex justify-content-center"><h5>Soft Skills</h5></CardTitle>
                             <CardText> 
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item">Problem Solving</li>

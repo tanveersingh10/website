@@ -4,7 +4,7 @@ import {Card} from 'reactstrap';
 
 function RenderTestimonial({test}) {
     return (
-        <blockquote className="blockquote text-center">
+        <blockquote className="blockquote text-center ">
             <p>{test.testimonial}</p>
             <footer className="blockquote-footer">{test.author}</footer>
         </blockquote>

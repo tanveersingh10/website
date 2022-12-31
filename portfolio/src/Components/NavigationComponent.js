@@ -31,7 +31,7 @@ class Navigation extends Component {
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav className="ms-auto">
                             <NavItem>
-                                <a className="nav-link" href="#about">
+                                <a className="nav-link" href="/assets/resume.pdf">
                                     <span className="fa fa-file fa-regular fa-lg"></span> Resume
                                 </a>
                             </NavItem>
@@ -42,19 +42,19 @@ class Navigation extends Component {
                             </NavItem>
 
                             <NavItem>
-                                <AnchorLink className="nav-link" href="#testimonials">
-                                    <span className="fa fa-list fa-lg"></span> Testimonials
-                                </AnchorLink>
-                            </NavItem>
-
-                            <NavItem>
                                 <a className="nav-link" href="#skills">
                                     <span className="fa fa-code fa-regular fa-lg"></span> Skills
                                 </a>
                             </NavItem>
 
                             <NavItem>
-                                <AnchorLink className="nav-link" href="#">
+                                <AnchorLink className="nav-link" href="#testimonials">
+                                    <span className="fa fa-list fa-lg"></span> Testimonials
+                                </AnchorLink>
+                            </NavItem>
+
+                            <NavItem>
+                                <AnchorLink className="nav-link" href="#contact">
                                     <span className="fa fa-address-card fa-lg"></span> Contact
                                 </AnchorLink>
                             </NavItem>

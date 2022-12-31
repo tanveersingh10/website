@@ -36,11 +36,6 @@
     transform: rotate(360deg);
   }
 }
-/* #banner-header {
-  font-size: 100px;
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
- } */
 
  .banner {
   min-height: 100vh;
@@ -51,9 +46,6 @@
   text-shadow: 2px 2px 2px rgba(0,0,0,.5);
  }
 
- #banner-header{
-  font-size: 5rem;
- }
 
  #body {
   background-color: midnightblue;
@@ -89,10 +81,17 @@
     #banner-header {
       font-size: 2rem;
     }
+
+    #about-header {
+      margin-top: 25px;
+    }
+ }
+
+ #about-para {
+  font-size: 1.5rem;
  }
  
-
-
- 
-
+.card-title {
+  color: black;
+}
 
